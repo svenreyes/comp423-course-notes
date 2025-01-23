@@ -5,3 +5,7 @@
 ``` py
 import tensorflow as tf
 ```
+
+!!! note
+
+    wow i love git so much, it is my favorite
