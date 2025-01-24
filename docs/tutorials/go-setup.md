@@ -64,14 +64,14 @@ Install the VSCode extensions:
 
 4. Verify the Go Installation
     1. Open the terminal in VSCode (inside the container).
-    2. Run the following command to verify the Go version:
+    2. Run the following command to verify the Go version is recent:
     ```
     go version
     ```
     !!! note
         Use `#!go go version` to ensure a recent Go installation.
 5. Set Up a Go Project
-    1. Initialize a new Go module:
+    1. Initialize a new Go module by running the following commands:
     ```go
     go mod init hello-comp423
     ```
@@ -79,8 +79,7 @@ Install the VSCode extensions:
     ```go
     touch main.go
     ```
-6. Write the "Hello COMP423" Program
-    Add the following code to main.go:
+6. Write the "Hello COMP423" Program and add the following code to main.go:
     ```go
     package main
 
