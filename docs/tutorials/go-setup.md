@@ -44,13 +44,15 @@ Install the VSCode extensions:
     ```json
     {
         "name": "Go DevContainer",
-        "image": "mcr.microsoft.com/devcontainers/go:0-1.19",
-        "settings": {
-            "go.toolsManagement.autoUpdate": true
-        },
-        "extensions": [
-            "golang.go"
-        ]
+        "image": "mcr.microsoft.com/devcontainers/go:1.19.0",
+        // Custom VS Code settings
+        "customizations": {
+            "vscode": {
+                "extensions": [
+                    "ms-vscode.Go"
+                ]
+            }
+        }
     }
     ```
 3. Start the DevContainer
