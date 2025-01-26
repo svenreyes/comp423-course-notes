@@ -44,7 +44,7 @@ Install the VSCode extensions:
     ```json
     {
         "name": "Go DevContainer",
-        "image": "mcr.microsoft.com/devcontainers/go:1.19.0",
+        "image": "mcr.microsoft.com/devcontainers/go:1.20",
         // Custom VS Code settings
         "customizations": {
             "vscode": {
